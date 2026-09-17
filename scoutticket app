@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7793058-58af-4c31-ad04-13e149ad6eac1.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');</script>
+<title>Vegas Event & Ticket Scout</title>
+<style>
+:root {
+--bg-color: #0b0c10;
+--card-bg: #1f2833;
+--neon-pink: #ff007f;
+--neon-cyan: #00f0ff;
+--text-color: #c5c6c7;
+--white: #ffffff;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+background-color: var(--bg-color);
+color: var(--text-color);
+margin: 0;
+padding: 0;
+padding-bottom: 60px;
+}
+
+.header {
+text-align: center;
+padding: 30px 20px;
+background: linear-gradient(180deg, #1f2833 0%, #0b0c10 100%);
+border-bottom: 2px solid var(--neon-pink);
+box-shadow: 0 0 15px var(--neon-pink);
+}
+
+.header h1 {
+margin: 0;
+font-size: 1.8rem;
+color: var(--white);
+text-transform: uppercase;
+letter-spacing: 2px;
+text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+.header p {
+margin: 10px 0 0 0;
+font-size: 0.9rem;
+color: var(--neon-pink);
+font-weight: bold;
+}
+
+.container {
+padding: 20px;
+max-width: 500px;
+margin: 0 auto;
+}
+
+.section-title {
+font-size: 1.2rem;
+color: var(--white);
+margin-bottom: 15px;
+border-left: 4px solid var(--neon-cyan);
+padding-left: 10px;
+text-transform: uppercase;
+}
+
+.venue-card {
+background-color: var(--card-bg);
+border-radius: 12px;
+padding: 20px;
+margin-bottom: 25px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+border: 1px solid #2f3e46;
+}
+
+.venue-name {
+font-size: 1.4rem;
+color: var(--white);
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+.venue-meta {
+font-size: 0.8rem;
+color: var(--neon-cyan);
+margin-bottom: 15px;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.tip-box {
+background-color: rgba(0, 240, 255, 0.05);
+border-left: 3px solid var(--neon-cyan);
+padding: 10px;
+margin-bottom: 15px;
+font-size: 0.9rem;
+border-radius: 0 8px 8px 0;
+}
+
+.tip-box strong {
+color: var(--white);
+}
+
+.affiliate-btn {
+display: block;
+background: linear-gradient(45deg, var(--neon-pink), #ff0055);
+color: var(--white);
+text-align: center;
+padding: 12px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1rem;
+text-transform: uppercase;
+box-shadow: 0 4px 15px rgba(255, 0, 127, 0.4);
+transition: 0.2s ease;
+}
+
+.affiliate-btn:active {
+transform: scale(0.98);
+}
+
+.matrix-card {
+background: linear-gradient(135deg, #1f2833 0%, #0f141c 100%);
+border-radius: 12px;
+padding: 20px;
+margin-bottom: 25px;
+border: 1px solid var(--neon-pink);
+}
+
+.matrix-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px 0;
+border-bottom: 1px solid #2f3e46;
+}
+
+.matrix-item:last-child {
+border-bottom: none;
+}
+
+.matrix-label {
+font-weight: bold;
+color: var(--white);
+font-size: 0.95rem;
+}
+
+.matrix-value {
+color: var(--neon-cyan);
+font-size: 0.9rem;
+font-weight: bold;
+text-align: right;
+}
+
+/* NEW FLIGHT STYLING */
+.flight-card {
+background: linear-gradient(135deg, #1a2238 0%, #0b0c10 100%);
+border-radius: 12px;
+padding: 20px;
+margin-bottom: 25px;
+border: 1px solid var(--neon-cyan);
+box-shadow: 0 0 10px rgba(0, 240, 255, 0.2);
+}
+
+.flight-input {
+width: 90%;
+padding: 12px;
+background-color: #0b0c10;
+border: 1px solid #2f3e46;
+color: var(--white);
+border-radius: 6px;
+margin-bottom: 12px;
+font-size: 0.95rem;
+}
+
+.flight-btn {
+display: block;
+background: linear-gradient(45deg, var(--neon-cyan), #00bfff);
+color: #0b0c10;
+text-align: center;
+padding: 12px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1rem;
+text-transform: uppercase;
+box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+border: none;
+width: 100%;
+}
+
+.footer-banner {
+background-color: #111;
+text-align: center;
+padding: 15px;
+font-size: 0.8rem;
+color: #666;
+border-top: 1px solid #222;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>Vegas Scout</h1>
+<p>Live Event, Seating & Transit Optimizer</p>
+</div>
+
+<div class="container">
+
+<!-- NEW FLIGHT SEARCH WIDGET CONTAINER -->
+<div class="section-title">✈️ Find Cheap Flights to Vegas</div>
+<div class="flight-card">
+<input type="text" class="flight-input" placeholder="Enter Departure City (e.g., NYC, LAX)" id="originAirport">
+<!-- PLACEHOLDER ACTION: FOR NOW IT SEARCHES WAYAWAY. LATER YOU REPLACE WITH YOUR SECRET AFFILIATE URL -->
+<button class="flight-btn" onclick="searchFlights()">Search Lowest Airfares</button>
+</div>
+
+<div class="section-title">Ticket Buying Matrix</div>
+<div class="matrix-card">
+<div class="matrix-item">
+<div class="matrix-label">🏈 Raiders (NFL)</div>
+<div class="matrix-value">Buy 2 hours before kickoff.<br>Prices drop up to 40%.</div>
+</div>
+<div class="matrix-item">
+<div class="matrix-label">🏒 Golden Knights (NHL)</div>
+<div class="matrix-value">Buy 24 hours out.<br>Inventory drops fast late.</div>
+</div>
+<div class="matrix-item">
+<div class="matrix-label">🎟️ Vegas Shows / Sphere</div>
+<div class="matrix-value">Buy matinees or mid-week<br>for best open pricing.</div>
+</div>
+</div>
+
+<div class="section-title">Venue Seating & Transit Hacks</div>
+
+<!-- Venue 1 -->
+<div class="venue-card">
+<h2 class="venue-name">Allegiant Stadium</h2>
+<div class="venue-meta">Home of the Raiders</div>
+<div class="tip-box">
+<strong>Best Budget Seats:</strong> Sections 400-415. Clear view of the entire field and the massive lanai doors.
+</div>
+<div class="tip-box">
+<strong>Transit Hack:</strong> Skip $60 Uber surges. Walk across the closed Hacienda Bridge directly from Mandalay Bay. It takes 15 minutes and costs $0.
+</div>
+<a href="https://ticketmaster.com" class="affiliate-btn" target="_blank">Compare Live Ticket Prices</a>
+</div>
+
+<!-- Venue 2 -->
+<div class="venue-card">
+<h2 class="venue-name">T-Mobile Arena</h2>
+<div class="venue-meta">Golden Knights / UFC / Concerts</div>
+<div class="tip-box">
+<strong>Best Budget Seats:</strong> Upper bowl sections 204-206 or 221-223. They hang directly over the ice/stadium floor with zero obstructions.
+</div>
+<div class="tip-box">
+<strong>Transit Hack:</strong> Park or get dropped off at the Tropicana or Excalibur, then use the free indoor walkways and walkways to avoid the main New York-New York bottlenecks.
+</div>
+<a href="https://ticketmaster.com" class="affiliate-btn" target="_blank">Compare Live Ticket Prices</a>
+</div>
+
+<!-- Venue 3 -->
+<div class="venue-card">
+<h2 class="venue-name">The Sphere</h2>
+<div class="venue-meta">Immersive Concerts & Experiences</div>
+<div class="tip-box">
+<strong>Seating Warning:</strong> Avoid rows 20+ in the 100 level. The 200-level overhang physically blocks your view of the upper screen. Stick to 200, 300, or 400 levels for full immersion.
+</div>
+<div class="tip-box">
+<strong>Transit Hack:</strong> Take the Las Vegas Monorail to the Horseshoe/Paris station, then walk the pedestrian bridge over to the venue entrance.
+</div>
+<a href="https://ticketmaster.com" class="affiliate-btn" target="_blank">Compare Live Ticket Prices</a>
+</div>
+
+</div>
+
+<div class="footer-banner">
+Vegas Scout is a free visitor helper tool. Ticket data provided via partner platforms.
+</div>
+
+<script>
+function searchFlights() {
+var origin = document.getElementById('originAirport').value;
+// This redirects them directly to the flight deal engine.
+// Once you get your Travelpayouts / WayAway link, replace this URL with your custom tracking link!
+var targetUrl = "https://wayaway.io";
+if(origin) {
